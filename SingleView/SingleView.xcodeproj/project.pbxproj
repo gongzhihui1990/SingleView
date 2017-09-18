@@ -14,6 +14,8 @@
 		82052F381F6B74CE00B7F80F /* SingleView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82052F361F6B74CE00B7F80F /* SingleView.xcdatamodeld */; };
 		82052F3A1F6B74CE00B7F80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82052F391F6B74CE00B7F80F /* Assets.xcassets */; };
 		82052F3D1F6B74CE00B7F80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82052F3B1F6B74CE00B7F80F /* LaunchScreen.storyboard */; };
+		829918A21F6BB58A004BC62F /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829918A11F6BB58A004BC62F /* MainController.m */; };
+		829918A51F6BC169004BC62F /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829918A41F6BC169004BC62F /* LoginController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		82052F391F6B74CE00B7F80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82052F3C1F6B74CE00B7F80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82052F3E1F6B74CE00B7F80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829918A11F6BB58A004BC62F /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		829918A31F6BB5AD004BC62F /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		829918A41F6BC169004BC62F /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		829918A61F6BC1A2004BC62F /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 				82052F2E1F6B74CE00B7F80F /* AppDelegate.m */,
 				82052F301F6B74CE00B7F80F /* ViewController.h */,
 				82052F311F6B74CE00B7F80F /* ViewController.m */,
+				829918A31F6BB5AD004BC62F /* MainController.h */,
+				829918A11F6BB58A004BC62F /* MainController.m */,
+				829918A61F6BC1A2004BC62F /* LoginController.h */,
+				829918A41F6BC169004BC62F /* LoginController.m */,
 				82052F331F6B74CE00B7F80F /* Main.storyboard */,
 				82052F391F6B74CE00B7F80F /* Assets.xcassets */,
 				82052F3B1F6B74CE00B7F80F /* LaunchScreen.storyboard */,
@@ -157,7 +167,9 @@
 				82052F381F6B74CE00B7F80F /* SingleView.xcdatamodeld in Sources */,
 				82052F321F6B74CE00B7F80F /* ViewController.m in Sources */,
 				82052F2F1F6B74CE00B7F80F /* AppDelegate.m in Sources */,
+				829918A21F6BB58A004BC62F /* MainController.m in Sources */,
 				82052F2C1F6B74CE00B7F80F /* main.m in Sources */,
+				829918A51F6BC169004BC62F /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +328,7 @@
 				82052F431F6B74CE00B7F80F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
